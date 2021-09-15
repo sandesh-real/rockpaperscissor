@@ -1,0 +1,139 @@
+
+body{
+    font-family:sans-serif;
+}
+.mainTitle
+{
+    margin:0;
+    margin-top:20px;
+    font-size: 50px;
+}
+p{
+    letter-spacing: 0.1rem;
+}
+.mainBody{
+  
+   
+  justify-content: space-around;
+    display: flex;
+}
+.mainTitle
+{
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+  
+    flex-direction: column;
+    padding:2rem 0;
+    padding-top:1rem;
+    width:60%;
+}
+.imageCollection
+{
+    display: flex;
+    justify-content: center;
+    margin-right:1rem;
+    width: 100%;
+    margin:3rem 0;
+    margin-top:0;
+
+}
+.image{
+    width: 120px;
+    height:100px;
+    margin-right:1rem;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 13%);
+    cursor: pointer;
+}
+.gameContainer
+{
+    display: flex;
+}
+.player1Container h1,
+.player2Container h1{
+    text-align: center;
+    padding-right: 1rem;
+    margin:0;
+    font-size: 20px;
+
+}
+.player1Container img,
+.player2Container img
+{
+    width: 120px;
+    height:100px; 
+margin-right: 1rem;
+box-shadow: 1px 1px 4px rgb(0 0 0 / 13%);
+margin-bottom: 10px;
+
+}
+.restartBtn
+{
+    padding:10px 15px;
+    border:none;
+    background-color: rgb(184, 0, 0);
+    color: #fff;
+    letter-spacing: 0.1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.playBtnContainer
+{
+    margin-top:2rem;
+    
+    width:50%;
+    text-align: center;
+}
+.playbtn,
+.playagain
+{
+    padding:10px 15px;
+    border:none;
+    background-color: rgb(1, 1, 58);
+    color: #fff;
+    letter-spacing: 0.1rem;
+    border-radius: 3px;
+    width: 30%;
+    cursor: pointer;
+}
+.hide
+{
+    display: none;
+}
+.resultContainer1
+{
+    width:20%;
+    display: flex;  
+    align-items: center;
+    justify-content: flex-end   ;   
+    /* background-color: red; */
+    
+}
+.playerTwoResult p,
+.playerOneResult p
+{
+font-size: 20px;
+    
+}
+.resultContainer2
+{
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+    
+}
+
+.Vs
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin:0 1.5rem 1rem ;
+    align-self: center;
+    letter-spacing: 0.2rem;
+}
+
